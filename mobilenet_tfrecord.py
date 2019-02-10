@@ -126,7 +126,7 @@ label = []
 SEED = 66478
 input_size = 224
 input_channel = 3
-class_num = 3
+class_num = 446
 
 conv1_w_s2 = tf.Variable(tf.truncated_normal([3, 3, input_channel, 32], stddev=0.1, seed=SEED, dtype=tf.float32))
 conv1_b = tf.Variable(tf.constant(0.1, shape=[32]))
